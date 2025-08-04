@@ -25,8 +25,6 @@ def run_quiz(questions, num_questions=5):
 
     print(f"\nYour final score is {score}/{len(selected_questions)}")
 
-
-# ✅ Questions List
 quiz_questions = [
     {"question": "What is the capital of France?", "options": ["Berlin", "Madrid", "Paris", "London"],
      "answer": "Paris"},
@@ -51,5 +49,5 @@ quiz_questions = [
      "answer": "Blue Whale"}
 ]
 
-# ▶️ Run the quiz (you can change `num_questions` value)
 run_quiz(quiz_questions, num_questions=7)
+
